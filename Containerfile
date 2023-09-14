@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ARG CONTAINER_IMAGE=quay.io/ansible/python-base:latest
+ARG CONTAINER_IMAGE=quay.io/mksmki/python-base:latest
 ARG REMOTE_SOURCE=.
 ARG REMOTE_SOURCE_DIR=/remote-source
 ARG REMOTE_SOURCE_APP_DIR=$REMOTE_SOURCE_DIR
